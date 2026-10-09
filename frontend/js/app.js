@@ -7,6 +7,8 @@ menuToggle.addEventListener("click", () => {
 
     menuToggle.setAttribute("aria-expanded", String(isOpen));
     menuToggle.textContent = isOpen ? "✕" : "☰";
+    console.log('test');
+    
 });
 
 // Close the mobile menu after selecting a link
