@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern website built with HTML, CSS, and JavaScript">
+    <title>Nova — Creative Digital</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <a href="#" class="logo">nova<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact" class="nav-button">Let's Talk ↗</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    CREATIVE DIGITAL STUDIO
+                </p>
+
+                <h1>Ideas become<br>
+                    <span class="gradient-text">something real.</span>
+                </h1>
+
+                <p class="hero-description">
+                    We build beautiful digital experiences that help
+                    ambitious ideas stand out from the crowd.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#services" class="button primary">
+                        Explore our work ↗
+                    </a>
+                    <a href="#about" class="button secondary">
+                        Discover more
+                    </a>
+                </div>
+
+                <div class="stats">
+                    <div>
+                        <strong>50+</strong>
+                        <span>Projects launched</span>
+                    </div>
+                    <div>
+                        <strong>30+</strong>
+                        <span>Happy clients</span>
+                    </div>
+                    <div>
+                        <strong>5★</strong>
+                        <span>Client experience</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-art" aria-label="Abstract glowing orb">
+                <div class="orb orb-back"></div>
+                <div class="orb orb-front"></div>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="floating-card">
+                    <span class="card-icon">✦</span>
+                    <div>
+                        <strong>Think different.</strong>
+                        <p>Make it unforgettable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <p class="eyebrow">01 / WHO WE ARE</p>
+            <h2>Not just another<br>digital experience.</h2>
+            <p class="section-description">
+                We combine creativity, technology, and strategy to
+                turn ambitious ideas into digital products people love.
+            </p>
+        </section>
+
+        <section class="section services" id="services">
+            <p class="eyebrow">02 / WHAT WE DO</p>
+            <h2>Built for what's next.</h2>
+
+            <div class="service-grid">
+                <article class="service-card">
+                    <span class="service-icon">◈</span>
+                    <h3>Web Design</h3>
+                    <p>Clean interfaces and memorable visual identities.</p>
+                    <a href="#contact">Learn more ↗</a>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-icon">⌘</span>
+                    <h3>Development</h3>
+                    <p>Fast, responsive websites built for real people.</p>
+                    <a href="#contact">Learn more ↗</a>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-icon">✳</span>
+                    <h3>Creative Strategy</h3>
+                    <p>Smart ideas that help your brand move forward.</p>
+                    <a href="#contact">Learn more ↗</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <p class="eyebrow">03 / YOUR NEXT CHAPTER</p>
+            <h2>Have an idea?<br><span class="gradient-text">Let's build it.</span></h2>
+            <a class="button primary"
+               href="mailto:hello@example.com">
+                Get in touch ↗
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#" class="logo">nova<span>.</span></a>
+        <p>© <span id="year"></span> Nova Studio. Made with intention.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+</body>
+</html>
